@@ -1,40 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WYSIWYG Editor Component
 
-## Getting Started
+Bu proje, Senior Frontend Developer pozisyonu için geliştirilen WYSIWYG (What You See Is What You Get) editörü componentini içermektedir. Editör, Next.js ve Tailwind CSS kullanılarak modüler bir şekilde tasarlanmıştır.
 
-First, run the development server:
+## Gereksinimler
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Teknoloji: Next.js ve Tailwind CSS
+- Modüler Yapı: WYSIWYG editörü, bir Next.js bileşeni olarak tasarlanmıştır.
+- Özelleştirilebilir Stil: Tailwind CSS kullanılarak, editörün tasarımı kolayca özelleştirilebilir.
+- Temiz ve Okunabilir Kod: Kod, temiz ve anlaşılır olmalıdır.
+- Mobil Uyumluluk: Editör, farklı ekran boyutlarına uyum sağlamakta ve mobil cihazlarda sorunsuz çalışmaktadır.
+- Temel Metin Düzenleme Özellikleri: Kalın, italik, alt çizgi, liste ve font boyutu değiştirme gibi temel metin düzenleme özelliklerini içermektedir.
+- Ekstra Özellikler: Undo/Redo fonksiyonu.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Nasıl Kullanılır
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Projenin kullanımı oldukça basittir. Aşağıdaki adımları takip ederek projeyi kullanabilirsiniz.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. **Projeyi İndirme**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   ```
+   git clone https://github.com/furkanakkulak/Fw2kT.git
+   cd Fw2kT
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Bağımlılıkları Yükleme**
 
-## Learn More
+   ```
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Projeyi Başlatma**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Tarayıcıda Görüntüleme**
+   ```
+   http://localhost:3000
+   ```
 
-## Deploy on Vercel
+## Tasarım
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Figma tasarımına [buradan](https://www.figma.com/file/QLTqRuOwV5VdnjHCfUgeqv/Piton-Technology-Text-Editor?type=design&node-id=0%3A1&mode=design&t=OJILd9f6dySnDfsg-1) ulaşabilirsiniz.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Demo
+
+Projenin çalışan hali için [demo sayfasına](https://fw2kt.vercel.app/) göz atabilirsiniz.
+
+## Değerlendirme Kriterleri
+
+- Fonksiyonellik: Temel metin düzenleme özellikleri başarılı bir şekilde uygulanmıştır.
+- Modülerlik: Editör, Next.js bileşeni olarak modüler bir şekilde tasarlanmıştır.
+- Stil ve Tasarım: Tailwind CSS kullanılarak özelleştirilebilir ve estetik bir tasarım sunulmuştur.
+- Mobil Uyumluluk: Editör, farklı ekran boyutlarına uyum sağlamakta ve mobil cihazlarda sorunsuz çalışmaktadır.
+- Kod Kalitesi: Kod temiz ve anlaşılırdır. Herhangi bir hata veya güvenlik sorunu bulunmamaktadır.
+
+Bu proje, iş başvurusunun değerlendirilmesi için hazırlanmıştır.

@@ -80,16 +80,16 @@ const Toolbar = ({
         icon={alignJustifyIcon}
       />
       <Button
-        onClick={() => onButtonClick('insertOrderedList')}
-        isActive={styleStates.insertOrderedList}
-        label="Numbered List"
-        icon={numberedlistIcon}
-      />
-      <Button
         onClick={() => onButtonClick('insertUnorderedList')}
         isActive={styleStates.insertUnorderedList}
         label="Bulleted List"
         icon={bulletedlistIcon}
+      />
+      <Button
+        onClick={() => onButtonClick('insertOrderedList')}
+        isActive={styleStates.insertOrderedList}
+        label="Numbered List"
+        icon={numberedlistIcon}
       />
 
       <label className="btn-font">
